@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  font-family: Impact;
+  font-size: 20px;
+}
+
+.welcome {
+  background-color: rgb(29, 134, 69);
+  height: 170px; 
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  justify-content: center;
+  border: 1px white solid;
+}
+
+.center {
+  top: 0;
+  height: auto;
+  text-align: center;
+}
+
+.game-container {
+  background-color: rgb(100, 226, 127);
+  width: 100vw;
+  height: calc(100vh - 170px);
+  position: relative;
+  overflow: hidden;
+}
+
+.game-time {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: none;
+  text-align: center;
+}
+
+.game-over button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
